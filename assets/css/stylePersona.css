@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 0 24px;
+  gap: 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #d3aa13;
+  font-size: 32px;
+}
+
+.planpersona {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: URL(../img/Fondo_PlanPersona.png);
+  position: absolute;
+  width: 1338px;
+  height: 130px;
+  color: white;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  left: calc(50% - 1338px / 2 - 1px);
+}
