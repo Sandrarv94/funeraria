@@ -28,31 +28,33 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
-  body{
-    overflow-x: hidden;
+  .planmascota {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: URL(../img/Fondo_PlanPersona.png);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 130px;
+      color: white;
+      font-size: 40px;
+      font-family: "Lato", sans-serif;
+      left: calc(50% - 1338px / 2 - 1px);
+    
+  }
+  .planes {
+    display: flex;
+    gap: 48px;
+    padding: 24px;
   }
 
-  .planmascota {
+  .plan {
+    flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background-image: URL(../img/Fondo_PlanMascota.png);
-    position: absolute;
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 130px;
-    color: white;
-    font-size: 40px;
-    font-family: "Lato", sans-serif;
-    left: calc(50% - 1338px / 2 - 1px);
-  }
-  
-  .planbasico{
-  position: absolute;
-  top: 273px;
-  left: 174px;
-  height: 340px;
-  width: 340px;
+
   }
   
   .fondobasico{
@@ -68,18 +70,6 @@
   font-size: 30px;
   }
   
-  p{
-  color: #525252;
-  }
-  
-  .planpremium{
-    position: absolute;
-    top: 273px;
-    left: 858px;
-    height: 340px;
-    width: 340px;
-  }
-  
   .fondopremium{
   width: 340px;
   height: 340px;
@@ -93,12 +83,12 @@
   font-size: 30px;
   }
   
-  p{
+  .servicio{
     color: #525252;
-    font-size: 16px;
-  }
-
-  /* .footer {
+    font-size: 20px;
+    font-weight: 400;
+    }
+  .footer {
   width: 100%;
   height: 200px;
   background-color: #595e09;
@@ -169,4 +159,4 @@ h4 {
     font-weight: 400;
     padding-top: 20px;
     text-align: center;
-}  */
+}  

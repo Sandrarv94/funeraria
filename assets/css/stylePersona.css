@@ -61,13 +61,6 @@ body{
   left: calc(50% - 1338px / 2 - 1px);
 }
 
-.plancomun{
-top: 273px;
-left: 174px;
-height: 340px;
-width: 340px;
-}
-
 .fondopersona{
 width: 340px;
 height: 340px;
@@ -85,13 +78,6 @@ font-size: 30px;
 color: #525252;
 font-size: 20px;
 font-weight: 400;
-}
-
-.planadultomayor{
-  top: 273px;
-  left: 858px;
-  height: 340px;
-  width: 340px;
 }
 
 .fondoadulto{
